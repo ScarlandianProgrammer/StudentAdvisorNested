@@ -32,7 +32,7 @@ namespace StudentAdvisorNested
         public string SchoolEmail { get; set; }
 
         /// <summary>
-        /// The student's prefered phone number
+        /// The student's preferred phone number
         /// </summary>
         public string PhoneNumber { get; set; }
 
