@@ -22,17 +22,22 @@ namespace StudentAdvisorNested
         public string LastName { get; set; }
 
         /// <summary>
+        /// The date of birth of the student
+        /// </summary>
+        public DateOnly DateOfBirth { get; set; }
+
+        /// <summary>
         /// The school email address of the student
         /// </summary>
         public string SchoolEmail { get; set; }
 
         /// <summary>
-        /// The student's primary phone number
+        /// The student's prefered phone number
         /// </summary>
         public string PhoneNumber { get; set; }
 
         /// <summary>
-        /// The advisor for the student
+        /// The advisor assigned to the student
         /// </summary>
         public Advisor Advisor { get; set; }
     }
